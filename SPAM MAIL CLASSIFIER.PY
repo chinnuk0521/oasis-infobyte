@@ -88,14 +88,6 @@ footer = """
         gap: 10px;
     }
 </style>
-
-<div class="footer-table">
-    <h4>Made with &#10084; by PURAM HAREESH</h4>
-    <a href='https://www.linkedin.com/in/hareesh-puram-21344a23b'><h6>LinkedIn</h6></a>
-    <a href='https://github.com/Hareeshpuram'><h6>GitHub</h6></a>
-</div>
-"""
-
 st.write(footer, unsafe_allow_html=True)
 
 hide_st_style="""

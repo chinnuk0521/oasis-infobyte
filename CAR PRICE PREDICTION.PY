@@ -123,12 +123,6 @@ with st.form('Enter car details'):
             time.sleep(2)
         st.header(f'price predicted: ${round(pred[0],2)}')
 
-
-
-footer="""
-<br><p> Made by  PURAM HAREESH </p>
-<a href='https://www.linkedin.com/in/hareesh-puram-21344a23b'>linkedin</a><br><a href='https://github.com/Hareeshpuram'>Github</a>"""
-
 st.markdown(footer,unsafe_allow_html=True)
 hide_st_style="""
             <style>
